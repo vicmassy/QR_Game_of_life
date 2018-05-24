@@ -1,0 +1,543 @@
+/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=55064:/Applications/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/victor/Innopolis/PCGG/QR_Game_of_life/out/production/QR_Game_of_life:/Users/victor/Innopolis/PCGG/MOEAFramework-2.12/lib/JMetal-4.3.jar:/Users/victor/Innopolis/PCGG/MOEAFramework-2.12/lib/jcommon-1.0.20.jar:/Users/victor/Innopolis/PCGG/MOEAFramework-2.12/lib/commons-cli-1.2.jar:/Users/victor/Innopolis/PCGG/MOEAFramework-2.12/lib/rsyntaxtextarea.jar:/Users/victor/Innopolis/PCGG/MOEAFramework-2.12/lib/commons-codec-1.8.jar:/Users/victor/Innopolis/PCGG/MOEAFramework-2.12/lib/commons-lang3-3.1.jar:/Users/victor/Innopolis/PCGG/MOEAFramework-2.12/lib/jfreechart-1.0.15.jar:/Users/victor/Innopolis/PCGG/MOEAFramework-2.12/lib/MOEAFramework-2.12.jar:/Users/victor/Innopolis/PCGG/MOEAFramework-2.12/lib/commons-math3-3.4.1.jar sample.Terminal
+X X X X X X X     X       X         X X X X X X X
+X           X   X X   X X     X     X           X
+X   X X X   X     X X X       X X   X   X X X   X
+X   X X X   X   X X   X       X     X   X X X   X
+X   X X X   X       X   X X     X   X   X X X   X
+X           X   X   X     X X X X   X           X
+X X X X X X X   X   X   X   X   X   X X X X X X X
+                        X X     X
+X X X X X   X X X X X   X   X   X X   X   X   X
+X   X   X     X   X           X   X X X       X
+X X X X X X X X X X   X X     X X X X   X X     X
+X X     X X       X X X     X     X   X     X X X
+  X   X     X X X X   X       X X   X X   X X X X
+X     X         X   X   X X X               X
+X   X       X X     X     X X X X X       X X
+X         X   X X       X X       X         X
+X   X       X X     X   X   X X X X X X X X X   X
+                X   X           X       X X X X X
+X X X X X X X   X     X X       X   X   X     X X
+X           X     X X X     X   X       X X   X
+X   X X X   X   X X   X         X X X X X   X X
+X   X X X   X   X X X   X X X   X X   X     X   X
+X   X X X   X   X X X     X X X     X X   X X   X
+X           X   X   X   X X   X X X X X
+X X X X X X X   X X X   X   X   X   X X   X X   X
+---------------------------------------------------
+Objective1  Objective2
+1631.0      194.0
+    X X         X   X X X   X     X     X   X
+  X           X   X X           X X   X         X
+            X   X         X   X   X     X X   X
+    X   X       X     X X     X       X   X X
+    X X       X X X X   X       X       X
+            X   X     X X     X             X
+X X         X           X   X   X X X X       X X
+      X X X               X X   X       X
+X X X       X X X X       X           X         X
+X     X X     X X   X         X   X         X X
+  X     X X X   X X   X   X   X   X X X
+X       X X       X X X X X     X     X         X
+            X X                 X     X     X
+X     X X   X   X   X       X         X         X
+X X X X         X X X X   X     X     X         X
+X X X     X X X X X     X X           X X
+X   X X       X X X   X X X       X X X   X   X
+  X     X   X X     X X       X X   X         X
+X X         X X       X     X     X   X X       X
+              X X     X     X     X X       X
+X   X X     X   X   X   X     X           X     X
+  X X X     X   X       X   X   X   X   X       X
+X X X   X X X     X X           X   X     X   X
+  X   X X   X   X     X X         X X X     X
+  X   X       X X X   X   X         X     X
+---------------------------------------------------
+1316.0      269.0
+    X X         X     X X   X           X   X
+        X     X X     X X X X
+            X     X       X           X X X
+    X       X X X   X   X           X X     X
+            X X X   X   X X   X X X X   X
+        X   X       X   X   X X   X   X X   X   X
+X       X           X               X
+        X X   X   X       X     X X X         X X
+  X X       X       X     X X X   X   X     X   X
+X   X   X X X   X X                         X
+  X     X         X X             X             X
+X       X     X     X           X   X     X     X
+            X     X                           X
+      X X   X                         X         X
+    X     X         X     X     X     X X     X X
+X X X           X                 X     X     X
+X     X         X X     X                     X X
+X X             X X   X X     X X   X   X     X
+            X X X     X   X   X X     X     X X X
+X       X X             X         X X     X
+X   X       X       X             X X     X     X
+X X   X     X X             X                 X
+        X X   X   X X             X     X
+X               X     X         X   X           X
+X     X X       X         X               X
+---------------------------------------------------
+1623.0      200.0
+    X X         X   X X X               X X X X
+  X           X   X X X         X X   X   X     X
+            X   X         X   X   X     X X   X
+        X       X     X X     X     X X   X X
+    X X       X X X X   X       X     X X
+                      X X     X             X
+X X         X           X   X   X X X X       X X
+      X X X               X             X
+X X X       X X X X X     X   X       X         X
+X       X     X X X X             X     X   X X
+  X     X X X   X X   X   X   X   X X X
+X       X X         X X X X     X X   X         X
+  X   X     X     X             X     X
+X     X X   X       X       X             X     X
+    X X         X X X     X     X       X       X
+X X       X   X X X     X X         X   X
+X     X       X X X   X X X       X X     X   X
+  X     X   X X     X X X     X X   X         X
+X X         X X       X     X     X   X X       X
+              X X     X     X     X         X
+    X X     X   X   X         X           X     X
+  X X X     X   X       X   X   X   X   X       X
+X X X   X X X X   X X           X         X   X
+  X X X X   X         X     X     X X X     X X
+      X       X X X   X   X         X     X
+---------------------------------------------------
+1544.0      202.0
+    X X         X   X X X     X             X
+      X       X             X   X X   X   X
+          X X X X   X X   X             X X X X
+    X   X   X X X     X X   X X X   X     X X
+      X X X X X X   X   X X   X   X X   X       X
+      X X   X     X   X X     X             X
+X       X   X       X         X   X X X X       X
+X       X X X     X     X X X   X         X   X
+X X X       X X X   X   X X   X       X X     X X
+                X X X   X               X   X X
+  X X X X       X         X     X X             X
+      X X   X X X   X X X       X       X       X
+        X   X     X           X     X X       X
+X     X X   X   X                     X         X
+  X   X         X   X X       X         X       X
+X X X     X     X X             X X     X     X
+      X       X X X     X           X X X X   X X
+X X       X X X         X     X X   X
+        X   X X                       X X   X X X
+        X         X               X       X     X
+  X X X     X X X   X   X         X X     X     X
+X X   X     X X X           X   X       X     X X
+X X     X   X     X X         X X       X X     X
+X   X   X   X X X     X         X   X
+      X X X     X     X       X         X
+---------------------------------------------------
+1496.0      205.0
+    X X         X     X X   X               X
+X       X     X X X     X       X   X X   X
+X       X   X   X     X   X           X X X X   X
+    X   X   X X X     X X     X     X   X X
+      X     X X X         X   X   X X   X       X
+      X     X     X   X X               X   X
+X   X   X X         X         X   X X X X       X
+      X X X       X       X X   X X X         X
+X X X X     X   X   X     X           X X   X X X
+                X X X                   X   X
+  X X X X   X             X   X X X             X
+X     X X X X X     X X X       X       X X     X
+        X   X     X           X       X
+X     X X   X   X                     X       X
+  X   X             X                   X     X X
+X X X     X     X X               X     X
+      X   X   X X X X   X           X X X X   X
+X X         X X               X X   X     X
+        X   X X X                     X       X X
+    X   X                         X       X     X
+    X X   X X X X   X             X X     X     X
+  X   X X   X   X X X       X           X     X
+X X     X X   X   X X         X           X
+        X   X X X     X         X   X X
+      X X X     X     X   X   X
+---------------------------------------------------
+1459.0      211.0
+X   X X     X   X     X         X X X   X X   X
+                    X               X X   X X
+          X X X X     X   X           X X X
+    X   X   X X X       X         X         X X
+X   X X     X   X     X   X   X   X X   X X
+                      X X   X X             X
+X       X       X   X         X   X X           X
+        X X X     X       X     X X X       X X
+  X X       X   X   X     X   X       X X   X X X
+    X   X     X X           X               X
+  X             X     X           X             X
+X     X X   X X     X   X       X       X X     X
+X       X   X     X                   X
+X     X X   X                         X     X X X
+  X     X           X X   X X     X       X   X
+X X X         X X X       X     X   X X X   X X
+      X         X X     X             X X X
+  X           X     X X         X       X     X
+            X X X                     X     X   X
+          X   X           X X     X       X
+X   X     X X     X X               X     X     X
+  X X       X   X           X X X   X
+        X X X X   X X   X     X   X   X   X
+        X       X     X     X X X   X       X
+      X X       X   X X   X       X     X X
+---------------------------------------------------
+1393.0      231.0
+    X X         X     X X     X             X
+              X X     X X   X     X X     X
+            X     X       X           X X X
+    X   X     X X   X   X     X     X       X
+X           X X X X   X   X   X X X X   X
+  X   X X   X               X X   X   X X   X
+X       X           X       X     X X     X
+          X       X       X X   X X             X
+  X X       X             X   X   X   X       X X
+    X   X X X   X   X                       X
+        X         X               X             X
+X       X     X     X           X       X X     X
+      X     X     X                         X X
+X       X   X       X               X X         X
+          X     X   X     X       X   X X     X X
+X X X     X     X               X             X
+      X         X X     X                 X   X X
+X           X X     X   X     X X       X   X X
+            X X X     X   X     X   X X       X X
+X       X             X           X X     X X   X
+X   X       X       X             X       X
+X X X X     X   X           X           X X   X
+        X X   X   X X         X   X     X       X
+X       X       X     X X       X X X           X
+  X X X X X     X     X   X           X   X
+---------------------------------------------------
+1431.0      225.0
+X   X X     X   X X   X         X X X       X
+              X   X X               X X   X
+          X X X X     X   X X           X X
+    X   X     X X       X   X       X       X X X
+X   X X     X         X   X   X   X X   X X
+X                     X X   X X             X
+X       X X         X         X     X           X
+      X X X X     X       X     X X X       X X
+X X X       X   X   X     X   X       X X   X X X
+    X   X     X X X                     X   X
+  X   X         X         X       X             X
+X X   X X   X X     X X X       X       X X     X
+X       X   X     X                   X
+X     X X   X                         X     X X X
+  X     X       X   X X   X   X   X       X   X X
+X X X           X X       X           X X   X X
+      X       X X X     X             X   X
+  X           X     X X X       X   X   X
+        X   X X X                     X     X   X
+X             X   X   X           X       X
+X   X X   X X       X       X       X     X     X
+  X X       X   X     X     X X X X X         X
+        X X X     X X   X     X       X X X
+X       X       X     X     X X X X         X
+      X X   X X X     X   X       X     X X
+---------------------------------------------------
+1384.0      235.0
+    X X         X     X X     X             X
+              X X     X X   X     X X     X
+            X     X       X           X X X
+    X   X     X X   X   X     X     X       X
+X           X X X     X   X   X X X X   X
+  X     X   X               X X   X   X X   X
+X       X           X       X     X X     X
+        X X       X       X X   X X             X
+  X X       X             X X X   X   X       X X
+    X   X X X   X   X                       X
+        X         X               X             X
+X       X     X     X           X       X X     X
+      X     X     X                           X
+X     X X   X       X               X X         X
+          X     X   X     X       X   X X     X X
+X X X     X     X               X             X
+      X         X X     X                 X   X X
+X           X X     X   X     X X       X   X X
+            X X X     X   X     X   X X       X X
+X       X             X           X X     X     X
+X   X       X       X             X       X
+X X X X     X   X           X           X X   X
+        X X   X   X X         X   X     X       X
+X       X       X     X X       X X X           X
+  X X X X X     X     X   X           X   X
+---------------------------------------------------
+1452.0      218.0
+X   X X     X         X X X   X   X     X   X
+              X X X         X   X     X   X
+          X X X X     X   X             X X
+    X   X     X X     X X     X             X X X
+X   X X     X   X     X   X   X   X X   X X     X
+X     X           X   X X X   X             X
+X         X       X X       X X     X           X
+      X X X       X     X X X   X X X         X
+X X X       X       X   X X   X       X X   X X X
+    X   X       X X     X               X   X X
+  X   X                   X       X             X
+X X   X X   X X     X X X       X       X X     X
+X       X   X     X           X       X       X
+X     X X   X   X                     X     X X X
+  X     X           X     X       X       X   X X
+X X X     X     X X       X           X X     X
+      X       X X X     X             X   X
+  X           X     X X X       X
+        X   X X                       X     X   X
+X       X     X   X               X       X
+    X       X       X       X             X     X
+X X         X   X     X X   X   X     X X     X
+        X X X X     X   X     X       X X X
+X       X   X X X     X     X X X X         X
+      X X   X   X     X   X             X X
+---------------------------------------------------
+1367.0      244.0
+    X X         X       X     X             X
+        X     X X     X X   X     X X     X
+            X     X       X           X X X
+    X   X     X X   X X X           X       X
+            X X X   X X   X   X X X X   X
+        X   X           X   X X   X   X X   X
+X       X           X       X     X X     X
+        X X       X       X X   X X             X
+  X X       X             X X X   X   X       X X
+    X   X X X   X   X       X               X
+        X         X               X             X
+X       X           X           X   X   X X     X
+      X     X     X                           X
+X     X X   X     X                 X X         X
+          X     X   X     X     X X   X X     X X
+X X X     X     X               X             X
+      X         X X     X                 X   X X
+X           X X         X     X X           X X
+            X X X         X     X   X X       X X
+X       X             X         X X X     X     X
+X   X       X       X             X       X
+X X X X     X   X           X       X   X X   X
+        X X   X   X           X   X     X       X
+X       X       X     X X       X X X       X   X
+    X X X X     X         X           X   X
+---------------------------------------------------
+1532.0      204.0
+    X X   X     X     X X X X               X   X
+        X     X X     X X   X       X     X
+            X   X     X   X           X X   X   X
+    X   X   X X X     X X     X           X
+      X   X X X X         X   X   X X   X       X
+      X     X     X     X               X X X
+X     X X X X       X         X   X X   X       X
+      X X X       X     X X X   X   X         X
+X X X       X X X   X     X   X     X X       X X
+    X X         X   X                   X X X
+  X   X X       X         X   X X X             X
+X     X X X X X X   X         X X       X X     X
+        X   X     X           X     X X X
+X     X X   X   X                     X
+  X   X X           X                   X X   X X
+X X X     X     X X               X     X     X
+      X   X   X X X     X           X X X X   X X
+X X         X X               X     X
+        X   X X X                     X X   X X X
+        X         X               X       X     X
+    X X   X X X X   X                     X     X
+  X   X X   X   X X   X     X   X       X
+X X     X         X X         X         X X     X
+        X   X X X     X       X X   X X
+      X X X     X     X   X   X         X
+---------------------------------------------------
+1361.0      252.0
+    X X         X     X X   X X             X
+              X       X X   X       X X   X
+            X     X       X     X     X X
+    X   X     X     X   X           X X     X
+            X X X X   X   X   X X X X   X
+        X   X               X X       X X   X
+X                   X       X     X X
+        X X       X       X X   X X           X X
+  X X       X             X       X   X       X X
+    X   X       X                           X
+        X                         X             X
+X       X     X     X           X       X X     X
+      X     X   X X         X               X X
+      X X   X       X             X   X         X
+          X     X   X     X       X   X       X X
+X X X     X     X   X                 X       X
+      X         X X     X X               X   X X
+  X         X X         X     X X       X   X X
+            X X X     X   X     X     X     X X X
+X       X X           X           X X     X X   X
+X   X       X       X                     X
+X X X X     X   X           X           X     X
+        X     X   X X         X   X     X
+X       X       X     X X     X X X X       X   X
+      X X X     X     X   X           X   X
+---------------------------------------------------
+1329.0      265.0
+    X X         X     X X   X X         X   X
+              X   X   X X X X         X   X
+            X     X       X     X     X X X
+    X   X     X X   X   X     X     X X     X
+      X     X X X   X X   X   X X X X   X
+        X   X               X X   X     X   X X
+                    X         X     X
+        X X   X   X       X X   X X X         X
+    X       X       X     X   X   X   X       X X
+X   X   X       X X X                       X
+  X     X                                       X
+X       X           X           X   X     X     X
+            X   X X         X                 X
+      X X   X     X   X           X   X         X
+          X     X   X     X     X     X       X X
+X X X           X   X                   X     X
+      X         X X     X                 X     X
+X       X   X         X X     X X   X   X     X
+      X     X X X     X   X     X     X     X X X
+        X X                       X X     X
+X   X       X       X               X     X     X
+X X X       X X             X           X     X
+        X     X   X X             X     X
+X       X   X   X     X       X X   X       X   X
+      X X X     X         X               X
+---------------------------------------------------
+1444.0      223.0
+X   X X     X   X     X   X       X         X
+                  X X X     X   X     X   X     X
+          X X X X     X   X           X X X
+    X   X     X X   X   X     X   X X       X X X
+X   X X     X   X     X   X   X   X X     X
+      X   X       X   X X X X X             X
+X                   X         X   X X           X
+        X X X     X     X X     X X X         X
+X X X       X   X   X     X   X       X X   X X X
+    X   X       X X     X                   X
+  X                       X       X             X
+X X   X X   X X     X   X       X       X X     X
+X       X   X     X           X       X
+X     X X   X   X                     X     X X X
+  X     X           X X   X       X       X   X X
+X X X     X     X X       X           X X     X
+      X         X X     X                 X
+  X           X     X X X       X   X   X
+        X   X X                       X     X   X
+              X                   X       X
+    X     X         X                           X
+  X X       X   X     X X   X X X       X     X
+        X X X     X X   X     X   X   X       X
+X       X   X   X     X     X X X           X
+      X X   X   X     X   X       X     X X
+---------------------------------------------------
+1339.0      261.0
+    X X         X     X X   X X         X   X   X
+              X X     X X   X         X   X
+            X     X             X     X X X
+    X   X     X X   X   X           X       X
+            X X X     X   X   X X X X   X
+        X   X           X X X X   X   X X   X X
+X       X       X   X       X X     X X X
+        X X       X       X       X X         X
+X X X       X       X     X X         X       X X
+    X   X   X X X   X
+  X     X     X   X       X       X             X
+X       X           X           X   X   X X     X
+      X     X   X X   X     X                 X
+X     X     X   X X             X     X         X
+          X         X     X     X     X X     X X
+X X X     X     X                       X   X X
+      X         X X     X   X       X           X
+          X X           X     X X
+      X     X X       X   X   X X     X       X X
+        X X                       X X     X
+X   X X     X       X             X       X     X
+X X X X     X X             X X         X X
+        X     X   X X   X         X     X
+X       X     X X     X       X X   X           X
+      X X       X X       X               X
+---------------------------------------------------
+1364.0      245.0
+    X X         X     X X   X X         X   X
+        X     X X X   X X X X     X       X
+            X     X       X           X X X
+    X         X X   X X X           X       X
+            X X X   X X   X   X X X X   X
+        X   X           X   X X   X   X X   X X
+X       X           X     X X     X X
+        X X   X   X       X X   X X X         X X
+X X X       X       X     X X X       X         X
+    X   X X X   X X X       X               X
+  X     X                                       X
+X       X           X           X   X   X X     X
+      X     X   X X     X                     X
+      X X   X   X X                   X         X
+          X     X   X     X     X     X X     X X
+X X X   X X     X                       X     X
+      X         X X     X X X             X   X X
+X           X           X     X X       X   X X
+            X X X     X   X     X     X       X X
+X       X X           X           X X     X
+X   X X     X       X             X       X   X X
+X X X       X X X           X           X X
+        X     X   X X         X   X     X
+X       X       X     X X       X X X       X   X
+      X X X     X         X               X X
+---------------------------------------------------
+1351.0      256.0
+    X X         X     X X   X X         X   X
+            X X X     X X X X     X X X   X
+            X     X       X           X X X
+    X         X X   X   X           X       X
+            X X X     X   X   X X X X   X
+        X   X       X     X X X   X   X X   X
+X     X X           X     X X X   X X
+        X X       X       X X     X X         X X
+  X X       X             X X X       X       X X
+    X   X X X   X X X                       X
+  X     X         X               X             X
+X       X X         X         X X       X X X   X
+      X     X   X X                           X
+      X X   X   X X                 X X         X
+          X         X     X     X     X X     X X
+X X X   X X     X         X             X     X
+  X   X         X X     X                     X X
+X           X         X X     X X       X   X X
+            X X X     X   X   X       X       X X
+X       X                         X X     X
+X   X X     X                     X       X     X
+X X X       X X             X           X X   X
+        X     X   X X             X     X
+X       X   X   X     X       X X   X           X
+    X X X X   X X         X           X   X X
+---------------------------------------------------
+1349.0      258.0
+    X X         X X   X X   X X         X   X
+            X X   X   X X   X       X X   X
+            X     X             X     X X X
+    X   X     X     X   X             X     X
+      X     X X X   X X       X X X X   X
+        X   X       X       X X   X     X   X
+        X         X X       X X     X X
+        X X       X       X     X X X         X
+X   X       X             X X X       X     X X X
+    X   X       X                     X     X
+  X               X               X             X
+X       X           X           X   X   X X     X
+      X     X     X         X                 X
+X     X X   X   X                     X         X
+          X         X     X     X     X X     X X
+X X X     X     X                 X   X       X
+      X         X X     X           X     X     X
+  X   X       X     X   X       X       X     X
+            X X X         X           X       X X
+        X X           X         X X X     X X
+X   X       X       X                     X     X
+X X X X     X   X           X   X   X     X   X
+        X     X   X X   X     X   X     X
+X       X       X     X       X X   X   X
+    X X X         X       X               X     X
+---------------------------------------------------
+
+Process finished with exit code 0
